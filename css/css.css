@@ -1,0 +1,16 @@
+body{ font-family:Arial, Helvetica, sans-serif; font-size:12px;border:0; margin:0; padding:0; color:#333; background:#ccc;}
+.writh{ color:#fff;}
+.writh a{color:#FFFFFF; text-decoration:none}
+.writh a:visited{color:#FFFFFF; text-decoration:none}
+.writh a:hover{color:#006699; text-decoration:none}
+.menu a{ font-weight:bold; color:#fff; padding-left:60px; text-decoration:none; line-height:40px; height:40px; display:block; font-size:13px;}
+.line{ line-height:22px;}
+.title{ font-weight:bold; font-size:14px; padding-left:10px;}
+.bt{ color:#789a00; font-weight:bold; font-size:16px; padding-top:20px;}
+
+.bgimg{background:url(../images/call.jpg) no-repeat right bottom;}
+.nr{padding-top:10px; line-height:22px;}
+
+#header{
+    background-color: #fff;
+}

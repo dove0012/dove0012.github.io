@@ -1,0 +1,155 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>NATOCOR (CHINA)</title>
+  <link href="../css/css.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <table width="880" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+      <td height="83" valign="top">
+        <table id="header" width="880" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="223" height="83"><img src="../images/logo.jpg" width="223" height="82"></td>
+            <td width="655" valign="top">
+              <table width="655" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td width="516">&nbsp;</td>
+                  <td width="162" height="25" align="center" background="../images/top_an.jpg" class="writh"><a
+                      href="../index.html">English</a>&nbsp; <a href="#">中文</a></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>&nbsp;</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td height="8" bgcolor="#ebebeb">
+        <table width="880" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="195" height="207" align="center" valign="top" bgcolor="#639a02">
+              <table width="100%" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td align="left" class="menu"><a href="">首 页</a></td>
+                </tr>
+                <tr>
+                  <td align="left" class="menu"><a href="about.html">关于我们</a></td>
+                </tr>
+                <tr>
+                  <td align="left" class="menu"><a href="services.html">胎牛血清</a></td>
+                </tr>
+                <tr>
+                  <td align="left" class="menu"><a href="fairs.html">其他产品</a></td>
+                </tr>
+                <tr>
+                  <td align="left" class="menu"><a href="contact.html">联系我们</a></td>
+                </tr>
+              </table>
+            </td>
+            <td align="center" bgcolor="#639a02"><img src="../images/banner.jpg" width="685" height="207"></td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+  <table width="880" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+      <td bgcolor="#FFFFFF">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="241" valign="top" bgcolor="#FFFFFF">
+        <table width="98%" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="295" valign="top">
+              <p><img alt="" src="../images/totes.jpg"></p>
+            </td>
+            <td width="32">&nbsp;</td>
+            <td width="531" valign="top" style="line-height:22px">
+
+              <div id="Clock" style="font-size:16px; text-align:right; color:#006600; font-weight:bold"></div>
+              <script>
+                function tick() {
+                  var hours, minutes, seconds, xfile;
+                  var intHours, intMinutes, intSeconds;
+                  var today, theday;
+                  today = new Date();
+                  function initArray() {
+                    this.length = initArray.arguments.length
+                    for (var i = 0; i < this.length; i++)
+                      this[i + 1] = initArray.arguments[i]
+                  }
+                  var d = new initArray(
+                    " 星期日",
+                    " 星期一",
+                    " 星期二",
+                    " 星期三",
+                    " 星期四",
+                    " 星期五",
+                    " 星期六");
+                  theday = today.getFullYear() + "年" + [today.getMonth() + 1] + "月" + today.getDate() + "日" + d[today.getDay() + 1];
+                  intHours = today.getHours();
+                  intMinutes = today.getMinutes();
+                  intSeconds = today.getSeconds();
+                  if (intHours == 0) {
+                    hours = "12:";
+                    xfile = " 午夜 ";
+                  } else if (intHours < 12) {
+                    hours = intHours + ":";
+                    xfile = " 上午 ";
+                  } else if (intHours == 12) {
+                    hours = "12:";
+                    xfile = " 正午 ";
+                  } else {
+                    intHours = intHours
+                    hours = intHours + ":";
+                    xfile = " 下午 ";
+                  }
+                  if (intMinutes < 10) {
+                    minutes = "0" + intMinutes + ":";
+                  } else {
+                    minutes = intMinutes + ":";
+                  }
+                  if (intSeconds < 10) {
+                    seconds = "0" + intSeconds + " ";
+                  } else {
+                    seconds = intSeconds + " ";
+                  }
+
+                  timeString = theday + hours + minutes + seconds;
+                  document.getElementById("Clock").innerHTML = timeString;
+                }
+                setInterval('tick()', 1000)
+              </script>
+              <p>Natocor品牌成立于2015年，由国内外拥有丰富细胞培养类产品行业知识与采购经验的团队创立，并在全球范围内甄选优质合规原料进行高端定制生产。</p>
+              <p>多年来团队一直与国内、澳大利亚、新西兰及乌拉圭等顶级血清工厂保持交流合作，为广大科研工作者提供质优价廉的产品。</p>
+              <p>目前Natocor品牌的高品质胎牛血清，从源头，采血，生产及包装运输等多方面不断优化，创新。</p>
+              <p>源头方面：甄选国家检疫合规的牧场，定期安排专人跟进血缘采集及指标检测，从源头确保血缘质量、可溯源和稳定性。</p>
+              <p>采集方面：洁净，高规格的采血规范，从采集的原料中再百里挑一，筛选最优质指标的作为后续生产成品的原料。</p>
+              <p>生产方面：先进的生产工艺，严格和高标准的生产要求，成熟的质检标准，同时拥有多项去除血清中不利于细胞生长物质的过滤技术，批间差异性小，对细胞培养生长更加有利。</p>
+              <p>包装运输：全程低温保存运输，避免血清反复冻融的影响，让客户在每个细节得到最佳的使用体验一直是Natocor品牌的宗旨。</p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  <table width="880" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+      <td height="40" align="center" bgcolor="#f3f3f3">
+        <p>NATOCOR (中国)</p>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>

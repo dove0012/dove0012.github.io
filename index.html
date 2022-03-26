@@ -1,0 +1,218 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>NATOCOR (CHINA)</title>
+  <link href="./css/css.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <table width="880" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+      <td height="83" valign="top">
+        <table id="header" width="880" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="223" height="83"><img src="./images/logo.jpg" width="223" height="82"></td>
+            <td width="655" valign="top">
+              <table width="655" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td width="516">&nbsp;</td>
+                  <td width="162" height="25" align="center" background="images/top_an.jpg" class="writh"><a
+                      href="#">English</a>&nbsp; <a href="Cn/index.html">中文</a></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>&nbsp;</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td height="8" bgcolor="#ebebeb">
+        <table width="880" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="195" height="207" align="center" valign="top" bgcolor="#639a02">
+              <table width="100%" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td align="left" class="menu"><a href="">HOME</a></td>
+                </tr>
+                <tr>
+                  <td align="left" class="menu"><a href="about.html">ABOUT US</a></td>
+                </tr>
+                <tr>
+                  <td align="left" class="menu"><a href="services.html">FBS</a></td>
+                </tr>
+                <tr>
+                  <td align="left" class="menu"><a href="fairs.html">PRODUCTS</a></td>
+                </tr>
+                <tr>
+                  <td align="left" class="menu"><a href="contact.html">CONTACT</a></td>
+                </tr>
+              </table>
+            </td>
+            <td align="center" bgcolor="#639a02"><img src="./images/banner.jpg" width="685" height="207"></td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  <table width="880" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+      <td bgcolor="#FFFFFF">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="241" valign="top" bgcolor="#FFFFFF">
+        <table width="98%" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="295" valign="top">
+              <p><img alt="" src="./images/totes.jpg"></p>
+              <table cellspacing="0" cellpadding="4" width="295" align="center">
+                <tbody>
+                  <tr>
+                    <td align="center">&nbsp;</td>
+                    <td align="center">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td align="center">&nbsp;</td>
+                    <td align="center">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td align="center">&nbsp;</td>
+                    <td align="center">&nbsp;</td>
+                  </tr>
+                </tbody>
+              </table>
+              <p>&nbsp;</p>
+            </td>
+            <td width="32">&nbsp;</td>
+            <td width="531" valign="top" style="line-height:22px; text-align:right">
+              <script language="javascript"> todaysDate = new Date(); dayarray = new
+                  Array("SUN", "MON", "TUE", "WED", "THU", "FRI",
+                    "SAT"); montharray = new Array("JAN", "FEB", "MARCH", "APRIL",
+                      "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC");
+                document.write("<span style='font-size:16px; color:#006600; font-weight:bold'>");
+                document.write(montharray[todaysDate.getMonth()] + " " + todaysDate.getDate() + ", "); if
+                  (todaysDate.getYear()
+                  < 1000) { document.write(todaysDate.getYear() + 1900 + "&nbsp;&nbsp;&nbsp;" + dayarray[todaysDate.getDay()]); } else {
+                  document.write(todaysDate.getYear() + "&nbsp;&nbsp;&nbsp;" + dayarray[todaysDate.getDay()]);
+                }
+                document.write("</span>")
+              </script>
+              <span id="Clock" style="font-size:16px; text-align:right; color:#006600; font-weight:bold"></span>
+              <script>
+                function tick() {
+                  var hours, minutes, seconds, xfile;
+                  var intHours, intMinutes, intSeconds;
+                  var today, theday;
+                  today = new Date();
+                  function initArray() {
+                    this.length = initArray.arguments.length
+                    for (var i = 0; i < this.length; i++)
+                      this[i + 1] = initArray.arguments[i]
+                  }
+                  var d = new initArray(
+                    " 星期日",
+                    " 星期一",
+                    " 星期二",
+                    " 星期三",
+                    " 星期四",
+                    " 星期五",
+                    " 星期六");
+                  theday = today.getFullYear() + "年" + [today.getMonth() + 1] + "月" + today.getDate() + "日" + d[today.getDay() + 1];
+                  intHours = today.getHours();
+                  intMinutes = today.getMinutes();
+                  intSeconds = today.getSeconds();
+                  if (intHours == 0) {
+                    hours = "12:";
+                    xfile = " 午夜 ";
+                  } else if (intHours < 12) {
+                    hours = intHours + ":";
+                    xfile = " 上午 ";
+                  } else if (intHours == 12) {
+                    hours = "12:";
+                    xfile = " 正午 ";
+                  } else {
+                    intHours = intHours
+                    hours = intHours + ":";
+                    xfile = " 下午 ";
+                  }
+                  if (intMinutes < 10) {
+                    minutes = "0" + intMinutes + ":";
+                  } else {
+                    minutes = intMinutes + ":";
+                  }
+                  if (intSeconds < 10) {
+                    seconds = "0" + intSeconds + " ";
+                  } else {
+                    seconds = intSeconds + " ";
+                  }
+
+                  timeString = hours + minutes + seconds;
+                  document.getElementById("Clock").innerHTML = timeString;
+                }
+                setInterval('tick()', 1000)
+              </script>
+              <br>
+              <table cellpadding="0" cellspacing="0" width="100%">
+                <tr>
+                  <td align="left" colspan="2">
+                    <p>
+                      NATOCOR was founded by a team who has rich knowledge and purchasing experience in the cell culture
+                      industry in 2015, and selects high-quality and compliant materials for high-quality customized
+                      production worldwide.
+                    </p>
+                    <p>
+                      Over many years, the team has always been exchanging communication and cooperation with the
+                      domestic, Australia, New Zealand and Uruguay and other top serum factories, to provide
+                      hight-quality & low-price products for most of scientific research workers.
+                    </p>
+                    <p>
+                      At present, the high-quality fetal bovine serum of the brand Natocor has been improved and
+                      innovated from different aspects: the source, the blood collection, the production, the package
+                      and transportation, ......etc.
+                    </p>
+                    <p>
+                      Source: selecting the National Quarantine compliance ranches, arranging specialities to follow up
+                      the blood collection and the inspection indicators, is to ensure the blood quality, traceability
+                      and stability from the source.
+                    </p>
+                    <p>
+                      Collection: Clean and high-requiered Standard Blood Collection, from the collection of raw
+                      materials, selects the best quality indicators as follow-up production of raw materials.
+                    </p>
+                    <p>
+                      Production: Advanced Production Technology, strict and high-standard production requirements,
+                      mature quality standards, at the same time has a number of removal of harmful substances in the
+                      serum filtration technology, small differences between variant batches, it’s better for the cell
+                      culture growth.
+                    </p>
+                    <p>
+                      Package & Transport: the whole cryogenic storage transport, to avoid the impact of repeated
+                      freezing and thawing of the serum, to make the customers which could have the best experience of
+                      usage in every detail has always been the purpose of the brand Natocor.
+                    </p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+  <table width="880" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+      <td height="40" align="center" bgcolor="#f3f3f3">
+        <p>NATOCOR (CHINA)</p>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
